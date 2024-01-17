@@ -1,0 +1,65 @@
+/* Styl dla całej strony */
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styl dla menu */
+.menu {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Styl dla linków w menu */
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styl dla nagłówka h1 */
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/* Styl dla tabel */
+table.menu {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+table.content {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styl dla nagłówków h2 */
+h2 {
+    color: black;
+}
+
+/* Styl dla tekstu pod obrazami */
+.image-text {
+    font-style: italic;
+}
+
+.test-block {
+    width: 200px;
+    border: 2px solid rgba(71,236,30, 1);
+    background: rgba(71,236,30, 0.7);
+    text-align: center;
+    color:#000;
+    padding:20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
